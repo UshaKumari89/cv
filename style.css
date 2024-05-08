@@ -1,0 +1,248 @@
+
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+    text-decoration: none
+}
+body{
+	/* background:conic-gradient(from 90deg at bottom right, cyan, rebeccapurple); */
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #121212;
+	
+}
+
+.resume-box{
+	width: 80%;
+	display: flex;
+    margin: 0 auto;
+	background-color: white;
+}
+.box-outer{
+	padding:1rem;
+}
+.box-1{
+	background-color: #26252d;
+	width: 35%;
+
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+  
+   
+  }
+  
+  .profile-img{
+    /* padding: 2rem 2.4rem 1rem; */
+    /* margin: auto; */
+
+ }
+  
+  .profile-img__img {
+    margin: 2rem auto;
+    position: relative;
+    width: 220px;
+    height: 250px;
+     -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  }
+
+.content{
+	padding: .5rem 1rem;
+    color: #fffbfb;
+}
+h1{
+    border-bottom: 1px solid  #333;
+
+}
+
+h2{
+    line-height: 2;
+	font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: -.1rem;
+    text-transform: uppercase;
+    border-bottom: 1px solid  #333;
+    /* border-top: 1px solid  #333; */
+    margin: .5rem 0;
+
+}
+
+.intro_info p{
+        color: #fffbfb;
+        font-weight: 400;
+        font-size: 15px;
+        margin-top: -1px;
+        line-height: 2
+       
+    }
+    .intro a{
+        color: #fffbfb;
+    
+    
+    }
+    .skills{
+        margin: 1rem 0;
+    }
+.skills p{
+    color: #ceced1;
+    font-weight: 300;
+    font-size: 14px;
+   
+}
+
+#progress1 {
+    background: #333;
+    border-radius: 13px;
+    height: 8px;
+    width: 100%;
+    padding: 3px;
+    margin: .2rem 0;
+}
+
+#progress1:after {
+    content: '';
+    display: block;
+    background: orange;
+    width: 70%;
+    height: 100%;
+    border-radius: 9px;
+}
+#progress2 {
+    background: #333;
+    border-radius: 13px;
+    height: 8px;
+    width: 100%;
+    padding: 3px;
+    margin: .2rem 0;
+}
+
+#progress2:after {
+    content: '';
+    display: block;
+    background: orange;
+    width: 70%;
+    height: 100%;
+    border-radius: 9px;
+}
+
+#progress3 {
+    background: #333;
+    border-radius: 13px;
+    height: 8px;
+    width: 100%;
+    padding: 3px;
+    margin: .2rem 0;
+}
+
+#progress3:after {
+    content: '';
+    display: block;
+    background: orange;
+    width: 55%;
+    height: 100%;
+    border-radius: 9px;
+}
+
+
+#progress4 {
+    background: #333;
+    border-radius: 13px;
+    height: 8px;
+    width: 100%;
+    padding: 3px;
+    margin: .2rem 0;
+}
+
+#progress4:after {
+    content: '';
+    display: block;
+    background: orange;
+    width: 70%;
+    height: 100%;
+    border-radius: 9px;
+}
+#progress5 {
+    background: #333;
+    border-radius: 13px;
+    height: 8px;
+    width: 100%;
+    padding: 3px;
+    margin: .2rem 0;
+}
+
+#progress5:after {
+    content: '';
+    display: block;
+    background: orange;
+    width: 40%;
+    height: 100%;
+    border-radius: 9px;
+}
+
+#progress6 {
+    background: #333;
+    border-radius: 13px;
+    height: 8px;
+    width: 100%;
+    padding: 3px;
+    margin: .2rem 0;
+}
+
+#progress6:after {
+    content: '';
+    display: block;
+    background: orange;
+    width: 45%;
+    height: 100%;
+    border-radius: 9px;
+}
+#progress7 {
+    background: #333;
+    border-radius: 13px;
+    height: 8px;
+    width: 100%;
+    padding: 3px;
+    margin: .2rem 0;
+}
+
+#progress7:after {
+    content: '';
+    display: block;
+    background: orange;
+    width: 50%;
+    height: 100%;
+    border-radius: 9px;
+}
+
+.qualities ul, .activities ul, .language ul{
+padding-left: 1rem;
+
+}
+
+
+.box-2{
+	width: 65%;
+	padding: 1rem;
+}
+
+.content-2{
+	margin:0rem 0 ;
+
+}
+.para-1{
+	font-size: 1.3rem;
+    color: #26252d;
+    font-weight: 400;
+    margin-top: 5px;
+}
+h5{
+	font-size: .8rem;
+    color: #7d7d7d;
+    font-weight: 200;
+
+   
+} 
